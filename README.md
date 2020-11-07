@@ -16,4 +16,29 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 
 
 
+## Setup
+
+1. Install [Node.js](https://nodejs.org/) (10.0.0 or later)
+
+2. Clone the reveal.js repository
+
+   ```shell
+   $ git clone https://github.com/hakimel/reveal.js.git
+   ```
+
+3. Move to the reveal.js folder and install dependencies
+
+   ```shell
+   $ cd reveal.js && npm install
+   ```
+
+4. Serve the presentation and monitor source files for changes
+
+   ```shell
+   $ npm start
+   ```
+
+5. Open [http://localhost:8000](http://localhost:8000/) to view your presentation
+
 ## Outline
+
