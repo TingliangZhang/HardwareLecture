@@ -48,6 +48,9 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
   - Split the function into a few small function
   - Decide use which model to achieve each function
   - Buy lots of stuff from Taobao, JLC
+  - Build the prototype
+  - Test and Debug
+  - Iteration
 - A list of what we need to learn(incomplete)
 - A brief introduction to: 
   1. Dev boards such as Arduino and STM32; 
@@ -73,7 +76,33 @@ Hardware of embedded system includes embedded processor, memory, peripherals and
 
 ## Speech Notes
 
+Microcontrollers are single chip computers that include a minimum of a microprocessor, memory, and input-output module. A microcontroller can be anything from a tiny single chip embedded controller to a large computer system having keyboard, monitor, hard disk, printer, and so on.
 
+
+
+A microprocessor is different from a microcontroller in many different ways. The main difference is that a microprocessor requires several additional external support chips such as memory and input-output circuits before it can be used as a digital controller. A microcontroller on the other hand includes all these support chips on the same chip and that is why it is called a single chip computer. As a result, multiple chip microprocessor-based computer systems consume considerably more power than microcontroller-based systems. The costs of the single chip microcontroller systems are also much lower than the costs of the multiple chip-based microprocessor systems.
+
+Microprocessors and microcontrollers operate by executing user programs. These programs are stored in the program memory of the device and consist of instructions that can be understood and obeyed by the device. The device fetches these instructions from its program memory one by one and then implements the required operations. Under the control of the user program data is received from external input devices (inputs), manipulated as requested, and then sent to external devices (outputs).
+
+
+
+we shall see how a microcontroller can be used in a simple control system application. The Figure shows a liquid control system where the aim is to control the level of the liquid in the reservoir at a specified point. Water is pumped from the reservoir to the tank using a pump and pipes. The level of the liquid is controlled manually without using a microcontroller. Here, the person in charge observes the liquid level inside the tank and turns the pump off when the liquid level reaches the required prespecified level.
+
+
+
+The system shown in [Fig. 1.1](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0010) is manual and requires constant attention of a person. A simple microcontroller version of this system is shown in [Fig. 1.2](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0015). Here, the liquid level is read by the microcontroller via a liquid level sensor device. The program running inside the microcontroller compares the actual liquid level with the desired level and then actuates the pump automatically in order to keep the liquid at the desired level. If the liquid inside the tank is low, the microcontroller operates the pump to draw more liquid from the reservoir.
+
+
+
+The system shown in [Fig. 1.2](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0015) is a very simplified liquid level control system with no user interaction. In a more sophisticated system we may include a keypad to set the desired liquid level and an LCD (liquid crystal display) to see the desired and/or the actual liquid levels in the tank. [Fig. 1.3](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0020) shows the block diagram of our upgraded system. Notice that here we are using two inputs and two outputs from our microcontroller.
+
+
+
+We can make our system even more sophisticated as shown in [Fig. 1.4](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0025) by adding an audible alarm to indicate when the water level is above the desired point. Also, a PC can be interfaced to the microcontroller so that, for example, the actual liquid levels can be sent to the PC at regular intervals and graphs of liquid level variations can be plotted on the PC between the required intervals.
+
+
+
+In [Fig. 1.5](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0030), wireless interface is added to our system in the form of Bluetooth or Wi-Fi. With the help of the wireless interface we can, for example, send and save the liquid level readings on a Cloud. Additionally, we can monitor and/or control the liquid level remotely through the Cloud using, for example, a mobile phone. Because the microcontrollers are programmable and in general offer many input and output ports, we can make our system as simple or as complex as we like.
 
 ## Reference
 
@@ -87,3 +116,6 @@ Dogan Ibrahim, in [ARM-Based microcontroller projects using MBED](https://www.sc
 
 [Chapter 1 - Introduction](https://www.sciencedirect.com/science/article/pii/B978008102969500001X)
 
+
+
+[oxit Hardware Development](https://oxit.com/hardware-development/)
