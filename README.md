@@ -45,20 +45,25 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 - What is Hardware Development, why it is so important
 - How to develop any prototype
   - A brief IDEA about any non-pure-software stuff
-  - Split the function to a few small function
+  - Split the function into a few small function
   - Decide use which model to achieve each function
-  - Buy lots of stuff from taobao, JLC
+  - Buy lots of stuff from Taobao, JLC
 - A list of what we need to learn(incomplete)
 - A brief introduction to: 
   1. Dev boards such as Arduino and STM32; 
-  2. Communication protocol such as UART, SPI, I2C and RS232; 
-  3. Programming languages including C, Python, java, C++, Verilog; 
-  4. Debug tools such as olliscope, waveform generator, multimeter; 
-  5. Perphriels(外设) like brushless motor, servo motor, stepper motor, microphone, IMU, display; 
-  6. Circuits simulate and PCB design tools: Multisim, Kicad, Altium Designer; 
+  2. Communication protocol such as UART, SPI, I2C, and RS232; 
+  3. Programming languages including C, Python, Java, C++, Verilog; 
+  4. Debug tools such as oscilloscope, waveform generator, multimeter; 
+  5. Peripherals(外设) like brushless motor, servo motor, stepper motor, microphone, IMU, display; 
+  6. Circuits simulate and PCB design tools: Multisim, KiCAD, Altium Designer; 
   7. Soldering and SMT: QFNP, QFP, BGA, DIP......JLC
   8. Algorithms: FFT, PID
   9. HCI design
   10. Shape(shell) design
 - Discussion about the future of hardware engineering.
 
+
+
+## Key
+
+Hardware of embedded system includes embedded processor, memory, peripherals and interfaces.
