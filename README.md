@@ -45,12 +45,12 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 - What is Hardware Development, why it is so important
 - How to develop any prototype
   - A brief IDEA about any non-pure-software stuff
-  - Split the function into a few small function
-  - Decide use which model to achieve each function
+  - Split the function into a few small functions
+  - Decide to use which model to achieve each function
   - Buy lots of stuff from Taobao, JLC
   - Build the prototype
   - Test and Debug
-  - Iteration
+  - Tterate several times until reaches the demands.
 - A list of what we need to learn(incomplete)
 - A brief introduction to: 
   1. Dev boards such as Arduino and STM32; 
@@ -76,6 +76,20 @@ Hardware of embedded system includes embedded processor, memory, peripherals and
 
 ## Speech Notes
 
+Hello everyone, I am Tingliang from The Future Laboratory, Tsinghua University. The future lab is an interdisciplinary laboratory where students from Art and design can communicate with those from Computer science and engineering. Because we're from different majors, our work is quite different. 
+
+I am from Electric engineering and interest in hardware development, today I am going to talk about the Microcontrollers and hardware development.
+
+
+
+My presentation will be in 5 parts:
+
+
+
+Hardware is opposite to software, and it involves lots of products from our watches to laptops. But today I am going to talk about embedded systems only, which use MCU rather than MPU. MCU refers to Microcontrollers and MPU, also known as CPU, is the microprocessor. One sophisticate example of an embedded system is the camera. The figures are DSLR, aka Digital Single Lens Reflex Camera.
+
+
+
 Microcontrollers are single chip computers that include a minimum of a microprocessor, memory, and input-output module. A microcontroller can be anything from a tiny single chip embedded controller to a large computer system having keyboard, monitor, hard disk, printer, and so on.
 
 
@@ -98,11 +112,32 @@ The system shown in [Fig. 1.2](https://www.sciencedirect.com/science/article/pii
 
 
 
-We can make our system even more sophisticated as shown in [Fig. 1.4](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0025) by adding an audible alarm to indicate when the water level is above the desired point. Also, a PC can be interfaced to the microcontroller so that, for example, the actual liquid levels can be sent to the PC at regular intervals and graphs of liquid level variations can be plotted on the PC between the required intervals.
+We can make our system even more sophisticated by adding an audible alarm to indicate when the water level is above the desired point. Also, a PC can be interfaced to the microcontroller so that, for example, the actual liquid levels can be sent to the PC at regular intervals and graphs of liquid level variations can be plotted on the PC between the required intervals.
 
 
 
-In [Fig. 1.5](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0030), wireless interface is added to our system in the form of Bluetooth or Wi-Fi. With the help of the wireless interface we can, for example, send and save the liquid level readings on a Cloud. Additionally, we can monitor and/or control the liquid level remotely through the Cloud using, for example, a mobile phone. Because the microcontrollers are programmable and in general offer many input and output ports, we can make our system as simple or as complex as we like.
+In [Fig. 1.5](https://www.sciencedirect.com/science/article/pii/B978008102969500001X#f0030), wireless interface is added to our system in the form of Bluetooth or Wi-Fi. With the help of the wireless interface we can, for example, send and save the liquid level readings on a Cloud. Additionally, we can monitor and control the liquid level remotely through the Cloud using a mobile phone. Because the microcontrollers are programmable and in general offer many input and output ports, we can make our system as simple or as complex as we like.
+
+
+
+First, you get a brief Idea about any stuff involving hardware in your brain. Then we shall split the function into a few small functions, and decide to use which model to achieve each function. Now we can buy models and build the prototype. When the build is done, it's time to test and debug, and begin iterate several times until reaches the demands.
+
+
+
+1. Dev boards such as Arduino and STM32; 
+2. Communication protocol such as UART, SPI, I2C, and RS232; 
+3. Programming languages including C, Python, Java, C++, Verilog; 
+4. Debug tools such as oscilloscope, waveform generator, multimeter; 
+5. Peripherals(外设) like brushless motor, servo motor, stepper motor, microphone, IMU, display; 
+6. Circuits simulate and PCB design tools: Multisim, KiCAD, Altium Designer; 
+7. Soldering and SMT: QFNP, QFP, BGA, DIP......JLC
+8. Algorithms: FFT, PID
+
+
+
+Generally speaking, Hardware Development involves lots of skills, but today hardware engineer in china not yet highly paid. But in the future, when most of jobs can be done by more intelligent EDA tools, the high-end engineers may get high salary as programmers today.
+
+thanks for listening! 
 
 ## Reference
 
