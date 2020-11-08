@@ -60,10 +60,30 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
   8. Algorithms: FFT, PID
   9. HCI design
   10. Shape(shell) design
+- A thorough introduction of Microcontrollers
 - Discussion about the future of hardware engineering.
 
 
 
-## Key
+## Keys
 
 Hardware of embedded system includes embedded processor, memory, peripherals and interfaces.
+
+
+
+## Speech Notes
+
+
+
+## Reference
+
+[Microcontroller-Based Project Development Cycle](https://www.sciencedirect.com/science/article/pii/B9780081029695000021)
+
+Dogan Ibrahim, in [ARM-Based microcontroller projects using MBED](https://www.sciencedirect.com/book/9780081029695), 2019
+
+
+
+[ARM-Based microcontroller projects using MBED](https://www.sciencedirect.com/science/book/9780081029695)  2019, Pages 1-7
+
+[Chapter 1 - Introduction](https://www.sciencedirect.com/science/article/pii/B978008102969500001X)
+
