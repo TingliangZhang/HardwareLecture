@@ -132,6 +132,7 @@ First, you get a brief Idea about any stuff involving hardware in your brain. Th
 6. Circuits simulate and PCB design tools: Multisim, KiCAD, Altium Designer; 
 7. Soldering and SMT: QFNP, QFP, BGA, DIP......JLC
 8. Algorithms: FFT, PID
+9. Fabrication: lasercut, 3d print, CNC
 
 
 
